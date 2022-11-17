@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''
 :::::API Script to Query Sophos XDR Data Lake:::::
-Author:     Jose L. Chacano
+Author:     J.Chacano
 Reference:  https://developer.sophos.com/getting-started-tenant
             https://developer.sophos.com/getting-started-with-xdr-query
             https://docs.sophos.com/central/References/schemas/index.html?schema=xdr_schema_docs
