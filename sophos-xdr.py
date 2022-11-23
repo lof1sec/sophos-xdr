@@ -18,8 +18,8 @@ import urllib.parse
 
 ###################################
 ###  Enter the API credentials  ###
-client_id = "111111-11111-1111111-11111111"
-client_secret = "111111111111111111111111111111111"
+client_id = "11111111-111111-111111-111111-11111111111"
+client_secret = "1111111111111111111111111111111111111111111"
 ###################################
 
 ###   Don't modify from here!   ###
@@ -144,7 +144,7 @@ headers_7 = {"X-Tenant-ID": tenant_id,"Authorization": "Bearer " + jwt_token,"Co
 response_7 = requests.get(url_7, headers=headers_6)
 response_7_txt = str(response_7.text)
 data_7 = json.loads(response_7_txt)
-hola = data_7["items"]
+items_z = data_7["items"]
 len_1 = len(items_z)
 pages = data_7["pages"]["size"]
 total = data_7["pages"]["total"]
